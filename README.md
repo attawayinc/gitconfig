@@ -16,7 +16,7 @@ recommended to use the [latest stable version](https://launchpad.net/~git-core/+
 
 * Download or clone the repository to some directory (e.g. `~/github/porn/gitconfig/`).
 ```
-cd
+cd ~
 mkdir -p github/attawayinc
 cd github/attawayinc
 git clone https://github.com/attawayinc/gitconfig.git
