@@ -17,30 +17,30 @@ recommended to use the [latest stable version](https://launchpad.net/~git-core/+
 * Download or clone the repository to some directory (e.g. `~/github/porn/gitconfig/`).
 ```
 cd
-mkdir -p github/porn
-cd github/porn
-git clone https://github.com/porn/gitconfig.git
+mkdir -p github/attawayinc
+cd github/attawayinc
+git clone https://github.com/attawayinc/gitconfig.git
 ```
 
 * Include the gitconfig file in your `~/.gitconfig`:
 ```
 [include]
-	path = ~/github/porn/gitconfig/gitconfig
+	path = ~/github/attawayinc/gitconfig/gitconfig
 ...
 ```
 This way your local changes won't overwrite the file when you use:
 ```
-git config --global user.name "James Bond"
-git config --global user.email "jb@example.com"
+git config --global user.name "AttawayInc"
+git config --global user.email "mattaway6@student.wgu.edu"
 ```
 
 * Include the git prompt config in your `~/.bashrc`:
 ```
-$ echo "source ~/github/porn/gitconfig/bashrc.gitprompt" >> ~/.bashrc
+$ echo "source ~/github/attawayinc/gitconfig/bashrc.gitprompt" >> ~/.bashrc
 ```
 On next login your bash prompt will show nice symbols that represent the state
 of your current working tree. If you want to enable git prompt without logging
 out and in, just source the file:
 ```
-$ source ~/github/porn/gitconfig/bashrc.gitprompt
+$ source ~/github/attawayinc/gitconfig/bashrc.gitprompt
 ```
